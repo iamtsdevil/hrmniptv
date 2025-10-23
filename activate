@@ -10,8 +10,9 @@
       <ContentProtection schemeIdUri="urn:uuid:e2719d58-a985-b3c9-781a-b030af78d30e" value="ClearKey1.0"/>
       <!-- Widevine -->
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
-      <SegmentTemplate timescale="1000" duration="2900" initialization="$RepresentationID$/init.php" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <SegmentTemplate timescale="1000" duration="2900" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
       <Representation id="video/avc1" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="30" bandwidth="670686"/>
     </AdaptationSet>
   </Period>
 </MPD>
+
