@@ -20,7 +20,6 @@ jobs:
         API_KEY: ${{ secrets.API_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        #!/bin/bash
         echo "Fetching content from API..."
         
         # Fetch data
@@ -43,3 +42,4 @@ jobs:
           echo "Content updated and pushed."
         else
           echo "No changes detected. Nothing to commit."
+        fi
